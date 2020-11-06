@@ -1,0 +1,7 @@
+  
+.pleaList {
+    background-color: rgb(246, 192, 248);
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+}
