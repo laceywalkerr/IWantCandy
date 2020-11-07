@@ -1,0 +1,16 @@
+{
+    "demands": [
+        {
+            "id": 1,
+            "demand": "I Want CANDY"
+        },
+        {
+            "id": 1,
+            "demand": "I Want a PUPPY"
+        },
+        {
+            "id": 3,
+            "demand": "I Want COOKIES"
+        }
+    ]
+}

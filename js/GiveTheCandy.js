@@ -1,9 +1,9 @@
-alert("WARNING: Always say no to their demands. There is crying in baseball.")
+alert("WARNING: Always say no to their demands. There is no crying in baseball.")
 
 const please = ["child1"]
 
 const child1 = {
-    plea: "Please can I fill the tub with Mountain Dew?"
+  plea: "Please can I fill the tub with Mountain Dew?"
 
 }
 
