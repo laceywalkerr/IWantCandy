@@ -1,71 +1,70 @@
-# Candy Please!
+# Getting Started with Create React App
 
-## A JavaScript Exercise
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-All children know the best way to get what they want is to pester their parents until they give in. The smartest children know that for the best results they should vary both their volume and the number of repetitions of their plea.
+## Available Scripts
 
-Your task is to build a web application that will help a child build their plea.
+In the project directory, you can run:
 
-## Requirements
+### `npm start`
 
-### Layout
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-1. The page should have a text box to accept the text of the child's plea. For example, "Please can I fill the tub with Mountain Dew? Please?!?!"
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-1. The page should have a dropdown box for selecting the number of repetitions for the plea. This dropdown should contains entries from the numbers 1 through 100.
+### `npm test`
 
-1. The page should have an area for displaying the full text of the plea.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-1. The page should have a button that when clicked should cause the text of the plea to be output to the page.
+### `npm run build`
 
-### Functionality
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-#### Phase One
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
- When the user enters text into the text box, selects a number of repetitions and clicks the button, then the page should show the text on a new line as many times as indicated by the number of repetitions.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-For example, if the user enters a plea of "Gimme Candy!" and selects 5 in the repetitions dropdown, the page should display:
+### `npm run eject`
 
-```html
-Gimme Candy!
-Gimme Candy!
-Gimme Candy!
-Gimme Candy!
-Gimme Candy!
-```
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-#### Phase Two
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Modify your application to display every other plea in upper case.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-For example:
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-```html
-Gimme Candy!
-GIMME CANDY!
-Gimme Candy!
-GIMME CANDY!
-Gimme Candy!
-```
+## Learn More
 
-#### Phase Three
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Modify your application to display **random** pleas in upper case.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-For example:
+### Code Splitting
 
-```html
-GIMME CANDY!
-Gimme Candy!
-Gimme Candy!
-GIMME CANDY!
-GIMME CANDY!
-```
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-#### Phase Four
+### Analyzing the Bundle Size
 
-Modify your application by adding an option to the repetitions dropdown that will cause the app to use a random number between 1 and 100 for the number of repetitions.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-#### Phase Five
+### Making a Progressive Web App
 
-Style your app so that it's easy to use as well as aesthetically pleasing for a child.
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
