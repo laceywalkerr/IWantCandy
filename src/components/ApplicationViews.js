@@ -21,10 +21,6 @@ const ApplicationViews = (props) => {
                     return <DemandList />;
                 }}
             />
-            <Route path="/demands/:demandId(\d+)" render={(props) => {
-                return <DemandDetail demandId={parseInt(props.match.params.demandId)} {...props} />;
-            }} />
-
 
         </React.Fragment >
     );

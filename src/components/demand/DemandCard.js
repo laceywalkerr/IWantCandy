@@ -6,7 +6,7 @@ const DemandCard = props => {
         <div className="card">
             <div className="card-content">
                 <picture>
-                    <img src={require('./demand.png')} alt="Demand" />
+                    <img src="https://i.imgur.com/INiCc7v.jpg" alt="we deserve candy girl" width="500" height="600" />
                 </picture>
                 <h3>Demand: <span className="card-demandname">
                     {props.demand}
